@@ -2,7 +2,7 @@
 
 Personal portfolio website of an aspiring full-stack developer, built with plain HTML, CSS and JavaScript.
 
-**Live site:** coming soon (the link will be added here after deployment)
+**Live site:**https://rohit-sharma-dev.netlify.app/
 
 ## What's on the site
 
