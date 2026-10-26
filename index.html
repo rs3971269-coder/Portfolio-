@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rohit Sharma | Aspiring Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Rohit Sharma, an aspiring full-stack developer from Delhi building with HTML, CSS, JavaScript, React and Python.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#top">rohit.sharma</a>
+  <nav aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <div class="intro">
+        <img class="avatar" src="photo.jpg" alt="Photo of Rohit Sharma" width="112" height="112">
+        <p class="hello">Hi, I'm</p>
+      </div>
+      <h1>Rohit Sharma</h1>
+      <p class="role">Aspiring Full-Stack Developer</p>
+      <p class="lead">I build responsive web apps and practise backend and data structures in Python. Currently studying at Masai School and looking for a developer internship.</p>
+      <div class="actions">
+        <a class="btn primary" href="Rohit_Sharma_Resume.pdf" download>Download resume</a>
+        <a class="btn" href="#projects">See my projects</a>
+      </div>
+    </div>
+    <div class="editor" aria-hidden="true">
+      <div class="editor-bar"><span></span><span></span><span></span><em>profile.js</em></div>
+<pre><code><span class="l" style="--i:0"><b class="k">const</b> rohit = {</span>
+<span class="l" style="--i:1">  role: <i class="s">"Aspiring Full-Stack Developer"</i>,</span>
+<span class="l" style="--i:2">  learning: <i class="s">"Software Development Engineering"</i>,</span>
+<span class="l" style="--i:3">  stack: [<i class="s">"HTML"</i>, <i class="s">"CSS"</i>, <i class="s">"JavaScript"</i>,</span>
+<span class="l" style="--i:4">          <i class="s">"React"</i>, <i class="s">"Python"</i>, <i class="s">"FastAPI"</i>],</span>
+<span class="l" style="--i:5">  openTo: <i class="s">"web developer internships"</i>,</span>
+<span class="l" style="--i:6">};<span class="caret"></span></span></code></pre>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I'm an entry-level web developer from Delhi, studying Software Development Engineering at Masai School. I like turning an idea into something people can click through, from the layout in HTML and CSS to the data behind it.</p>
+    <p>My projects cover a React news app, a FastAPI student-management API, and Python practice on searching, sorting and Big-O. I debug and learn with tools like Cursor, VisualGo and Python Tutor, and I use Git and GitHub for everything I build.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <div><dt>Frontend</dt><dd><span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>DOM</span><span>Responsive layouts</span></dd></div>
+      <div><dt>Backend and APIs</dt><dd><span>Node.js</span><span>Python</span><span>FastAPI</span><span>REST APIs</span><span>Fetch API</span><span>JSON</span><span>Pydantic</span></dd></div>
+      <div><dt>Databases</dt><dd><span>Supabase</span><span>MySQL</span><span>SQLAlchemy</span></dd></div>
+      <div><dt>CS fundamentals</dt><dd><span>Data structures and algorithms</span><span>Big-O</span><span>Binary search</span><span>Selection sort</span></dd></div>
+      <div><dt>Tools</dt><dd><span>Git</span><span>GitHub</span><span>Cursor</span><span>VisualGo</span><span>Python Tutor</span></dd></div>
+    </dl>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="project featured">
+      <h3>NewsFlash: top stories, summarized</h3>
+      <p class="stack">React, TypeScript, Tailwind CSS, Supabase, Lovable AI</p>
+      <p>A responsive news reader with category browsing for Business, Technology, Science, Entertainment, Sports and Health. It has category filters, short article summaries, and Feed, Explore, Saved and Account pages.</p>
+      <p class="links"><a class="btn primary" href="https://flashfeed-rj-reader.lovable.app/" target="_blank" rel="noopener">Live website</a> <a class="btn" href="https://github.com/rs3971269-coder/flashfeed-rj-reader" target="_blank" rel="noopener">GitHub repo</a></p>
+    </article>
+
+    <article class="project">
+      <h3>Backend API practice project</h3>
+      <p class="stack">Python, FastAPI, SQLAlchemy, Pydantic</p>
+      <p>A Student Management API that creates students and fetches all students or one by ID. Also covers CRUD, query-parameter validation, response models, background tasks, file upload and download, and relational models for departments and employees.</p>
+      <p class="links"><a class="btn" href="https://github.com/rs3971269-coder/BackEnd-Repo" target="_blank" rel="noopener">View code on GitHub</a></p>
+    </article>
+
+    <article class="project">
+      <h3>Python logic and DSA practice</h3>
+      <p class="stack">Python</p>
+      <p>Binary search and selection sort, plus list and string problems: largest values, character counts, duplicates, common elements, two-pointer merging and pair search by target sum. Big-O complexity is documented in the README.</p>
+      <p class="links"><a class="btn" href="https://github.com/rs3971269-coder/Python-Logic-DSA-Project" target="_blank" rel="noopener">View code on GitHub</a></p>
+    </article>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ol class="timeline">
+      <li><strong>Software Development Engineering, certificate program</strong><span>Masai School, Delhi. 2026 to present</span></li>
+      <li><strong>Class XII (CBSE), 78.33%</strong><span>Govt. Boys Senior Secondary School. Passed 2025</span></li>
+    </ol>
+    <p class="muted">Languages: English, Hindi</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I'm looking for a web developer internship. Send me an email and I'll reply soon.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:rs3971269@gmail.com">rs3971269@gmail.com</a>
+      <a class="btn" href="https://github.com/rs3971269-coder" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/REPLACE-WITH-YOUR-LINKEDIN-ID" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year">2026</span> Rohit Sharma. Built with HTML, CSS and JavaScript.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
